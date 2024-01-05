@@ -1,0 +1,93 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+.MuiCollapse-container {
+  width: 0px;
+  transition-property: width;
+}
+
+.MuiCollapse-entered {
+  width: 100%;
+}
+
+.MuiCollapse-hidden {
+  width: 0px;
+}
+.modal-size {
+  position: absolute;
+  border-radius: 15px;
+}
+
+.large-2 {
+  float: left;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+  height: 400px;
+}
+
+.large-2::-webkit-scrollbar-track {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2px 0;
+  background-color: #fafaf8;
+}
+
+.large-2::-webkit-scrollbar {
+  width: 5px;
+}
+
+.large-2::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #f1f1ec;
+}
+
+.MuiTimelineContent-root {
+  margin: 0 !important;
+}
+.link-style {
+  color: blue !important;
+  text-decoration: none;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+.css-nvf14r-ToastContainer {
+  z-index: 99999999 !important;
+}
+
+.css-zyg32b {
+  padding-bottom: 0 !important;
+}
+
+.css-ourwa9-MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: rgb(58 53 65 / 9%) !important;
+}
+
+button:disabled {
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}
