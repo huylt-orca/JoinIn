@@ -15,7 +15,7 @@ Educational social networking platform helps students connect with each other to
 
 ## Tech Stack
 
-**Web:** React(TS)
+**Web:** NextJs(TS)
 
 **Mobile:** Flutter(Dart)
 
